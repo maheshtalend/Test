@@ -1,106 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testcontainer:TestContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:testcontainer="http://www.talend.com/testcontainer.ecore" xmi:id="_0jRYcNwCEeagE6UVPL9Hxw" defaultContext="Default" jobType="Standard" originalJobID="_JeGpENwCEeagE6UVPL9Hxw" parentVersion="0.1">
-  <context xmi:id="_0jRYcdwCEeagE6UVPL9Hxw" confirmationNeeded="false" name="Default"/>
-  <parameters xmi:id="_0jRYctwCEeagE6UVPL9Hxw">
-    <elementParameter xmi:id="_0jRYc9wCEeagE6UVPL9Hxw" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYdNwCEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYddwCEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYdtwCEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYd9wCEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYeNwCEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYedwCEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYetwCEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYe9wCEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYfNwCEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYfdwCEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYftwCEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYf9wCEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYgNwCEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYgdwCEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYgtwCEeagE6UVPL9Hxw" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
-    <elementParameter xmi:id="_0jRYg9wCEeagE6UVPL9Hxw" field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
-    <elementParameter xmi:id="_0jRYhNwCEeagE6UVPL9Hxw" field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
-    <elementParameter xmi:id="_0jRYhdwCEeagE6UVPL9Hxw" field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
-    <elementParameter xmi:id="_0jRYhtwCEeagE6UVPL9Hxw" field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
-    <elementParameter xmi:id="_0jRYh9wCEeagE6UVPL9Hxw" field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
-    <elementParameter xmi:id="_0jRYiNwCEeagE6UVPL9Hxw" field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
-    <elementParameter xmi:id="_0jRYidwCEeagE6UVPL9Hxw" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/Users/lenovo/workspace/in.csv&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYitwCEeagE6UVPL9Hxw" field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYi9wCEeagE6UVPL9Hxw" field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYjNwCEeagE6UVPL9Hxw" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="ORACLE_11" show="false"/>
-    <elementParameter xmi:id="_0jRYjdwCEeagE6UVPL9Hxw" field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYjtwCEeagE6UVPL9Hxw" field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
-    <elementParameter xmi:id="_0jRYj9wCEeagE6UVPL9Hxw" field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYkNwCEeagE6UVPL9Hxw" field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYkdwCEeagE6UVPL9Hxw" field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYktwCEeagE6UVPL9Hxw" field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYk9wCEeagE6UVPL9Hxw" field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYlNwCEeagE6UVPL9Hxw" field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYldwCEeagE6UVPL9Hxw" field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYltwCEeagE6UVPL9Hxw" field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYl9wCEeagE6UVPL9Hxw" field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_0jRYmNwCEeagE6UVPL9Hxw" field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYmdwCEeagE6UVPL9Hxw" field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYmtwCEeagE6UVPL9Hxw" field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYm9wCEeagE6UVPL9Hxw" field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
-    <elementParameter xmi:id="_0jRYnNwCEeagE6UVPL9Hxw" field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
-    <elementParameter xmi:id="_0jRYndwCEeagE6UVPL9Hxw" field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
-    <elementParameter xmi:id="_0jRYntwCEeagE6UVPL9Hxw" field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
-    <elementParameter xmi:id="_0jRYn9wCEeagE6UVPL9Hxw" field="CHECK" name="DISABLE_WARNINGS" value="true" show="false"/>
-    <elementParameter xmi:id="_0jRYoNwCEeagE6UVPL9Hxw" field="CHECK" name="DISABLE_INFO" value="true" show="false"/>
-    <elementParameter xmi:id="_0jRYodwCEeagE6UVPL9Hxw" field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
-    <elementParameter xmi:id="_0jRYotwCEeagE6UVPL9Hxw" field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
-    <elementParameter xmi:id="_0jRYo9wCEeagE6UVPL9Hxw" field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
-    <elementParameter xmi:id="_0jRYpNwCEeagE6UVPL9Hxw" field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
-    <elementParameter xmi:id="_0jRYpdwCEeagE6UVPL9Hxw" field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter xmi:id="_0jRYptwCEeagE6UVPL9Hxw" field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/lenovo/workspace/.metadata&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYp9wCEeagE6UVPL9Hxw" field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYqNwCEeagE6UVPL9Hxw" field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYqdwCEeagE6UVPL9Hxw" field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYqtwCEeagE6UVPL9Hxw" field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
-    <elementParameter xmi:id="_0jRYq9wCEeagE6UVPL9Hxw" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
-    <elementParameter xmi:id="_0jRYrNwCEeagE6UVPL9Hxw" field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
-    <elementParameter xmi:id="_0jRYrdwCEeagE6UVPL9Hxw" field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
-    <elementParameter xmi:id="_0jRYrtwCEeagE6UVPL9Hxw" field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
-    <elementParameter xmi:id="_0jRYr9wCEeagE6UVPL9Hxw" field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYsNwCEeagE6UVPL9Hxw" field="TABLE" name="DRIVER_JAR" show="false"/>
-    <elementParameter xmi:id="_0jRYsdwCEeagE6UVPL9Hxw" field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYstwCEeagE6UVPL9Hxw" field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYs9wCEeagE6UVPL9Hxw" field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYtNwCEeagE6UVPL9Hxw" field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYtdwCEeagE6UVPL9Hxw" field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYttwCEeagE6UVPL9Hxw" field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYt9wCEeagE6UVPL9Hxw" field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYuNwCEeagE6UVPL9Hxw" field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYudwCEeagE6UVPL9Hxw" field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYutwCEeagE6UVPL9Hxw" field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter xmi:id="_0jRYu9wCEeagE6UVPL9Hxw" field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYvNwCEeagE6UVPL9Hxw" field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYvdwCEeagE6UVPL9Hxw" field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYvtwCEeagE6UVPL9Hxw" field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_0jRYv9wCEeagE6UVPL9Hxw" field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
-    <elementParameter xmi:id="_0jRYwNwCEeagE6UVPL9Hxw" field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
-    <elementParameter xmi:id="_0jRYwdwCEeagE6UVPL9Hxw" field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
-    <elementParameter xmi:id="_0jRYwtwCEeagE6UVPL9Hxw" field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
-    <elementParameter xmi:id="_0jRYw9wCEeagE6UVPL9Hxw" field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYxNwCEeagE6UVPL9Hxw" field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
-    <elementParameter xmi:id="_0jRYxdwCEeagE6UVPL9Hxw" field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYxtwCEeagE6UVPL9Hxw" field="TEXT" name="HEADER_CODE" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYx9wCEeagE6UVPL9Hxw" field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYyNwCEeagE6UVPL9Hxw" field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYydwCEeagE6UVPL9Hxw" field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
-    <elementParameter xmi:id="_0jRYytwCEeagE6UVPL9Hxw" field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYy9wCEeagE6UVPL9Hxw" field="TEXT" name="FOOTER_CODE" value="" show="false"/>
-    <elementParameter xmi:id="_0jRYzNwCEeagE6UVPL9Hxw" field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <routinesParameter xmi:id="_0jRYzdwCEeagE6UVPL9Hxw" id="_PqtF4P7kEeeJGq8G3HQeGg" name="DataOperation"/>
-    <routinesParameter xmi:id="_0jRYztwCEeagE6UVPL9Hxw" id="_PrAn4P7kEeeJGq8G3HQeGg" name="Mathematical"/>
-    <routinesParameter xmi:id="_0jRYz9wCEeagE6UVPL9Hxw" id="_PrizYP7kEeeJGq8G3HQeGg" name="Numeric"/>
-    <routinesParameter xmi:id="_0jRY0NwCEeagE6UVPL9Hxw" id="_Prw10P7kEeeJGq8G3HQeGg" name="Relational"/>
-    <routinesParameter xmi:id="_0jRY0dwCEeagE6UVPL9Hxw" id="_Po8yYP7kEeeJGq8G3HQeGg" name="SQLike"/>
-    <routinesParameter xmi:id="_0jRY0twCEeagE6UVPL9Hxw" id="_Pr-RMP7kEeeJGq8G3HQeGg" name="StringHandling"/>
-    <routinesParameter xmi:id="_0jRY09wCEeagE6UVPL9Hxw" id="_PsQlEP7kEeeJGq8G3HQeGg" name="TalendDataGenerator"/>
-    <routinesParameter xmi:id="_0jRY1NwCEeagE6UVPL9Hxw" id="_PsfOkP7kEeeJGq8G3HQeGg" name="TalendDate"/>
-    <routinesParameter xmi:id="_0jRY1dwCEeagE6UVPL9Hxw" id="_PtDPQP7kEeeJGq8G3HQeGg" name="TalendStringUtil"/>
-    <routinesParameter xmi:id="_0jRY1twCEeagE6UVPL9Hxw" id="_Psz-sP7kEeeJGq8G3HQeGg" name="TalendString"/>
+<testcontainer:TestContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:testcontainer="http://www.talend.com/testcontainer.ecore" xmi:id="_XrEooNwDEeagE6UVPL9Hxw" defaultContext="Default" jobType="Standard" originalJobID="_JeGpENwCEeagE6UVPL9Hxw" parentVersion="0.1">
+  <context xmi:id="_XrEoodwDEeagE6UVPL9Hxw" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_XrEootwDEeagE6UVPL9Hxw" comment="" name="reference_file1" prompt="reference_file1?" promptNeeded="false" type="id_File" value=""/>
+  </context>
+  <parameters xmi:id="_XrEoo9wDEeagE6UVPL9Hxw">
+    <elementParameter xmi:id="_XrEopNwDEeagE6UVPL9Hxw" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_XrEopdwDEeagE6UVPL9Hxw" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_XrEoptwDEeagE6UVPL9Hxw" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_XrEop9wDEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_XrEoqNwDEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_XrEoqdwDEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_XrEoqtwDEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_XrEoq9wDEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_XrEorNwDEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_XrEordwDEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_XrEortwDEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_XrEor9wDEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_XrEosNwDEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_XrFPsNwDEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_XrFPsdwDEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_XrFPstwDEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_XrFPs9wDEeagE6UVPL9Hxw" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_XrFPtNwDEeagE6UVPL9Hxw" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter xmi:id="_XrFPtdwDEeagE6UVPL9Hxw" field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter xmi:id="_XrFPttwDEeagE6UVPL9Hxw" field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter xmi:id="_XrFPt9wDEeagE6UVPL9Hxw" field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter xmi:id="_XrFPuNwDEeagE6UVPL9Hxw" field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter xmi:id="_XrFPudwDEeagE6UVPL9Hxw" field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter xmi:id="_XrFPutwDEeagE6UVPL9Hxw" field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter xmi:id="_XrFPu9wDEeagE6UVPL9Hxw" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/Users/lenovo/workspace/in.csv&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFPvNwDEeagE6UVPL9Hxw" field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFPvdwDEeagE6UVPL9Hxw" field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter xmi:id="_XrFPvtwDEeagE6UVPL9Hxw" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="ORACLE_11" show="false"/>
+    <elementParameter xmi:id="_XrFPv9wDEeagE6UVPL9Hxw" field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFPwNwDEeagE6UVPL9Hxw" field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter xmi:id="_XrFPwdwDEeagE6UVPL9Hxw" field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFPwtwDEeagE6UVPL9Hxw" field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFPw9wDEeagE6UVPL9Hxw" field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFPxNwDEeagE6UVPL9Hxw" field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFPxdwDEeagE6UVPL9Hxw" field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFPxtwDEeagE6UVPL9Hxw" field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFPx9wDEeagE6UVPL9Hxw" field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFPyNwDEeagE6UVPL9Hxw" field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFPydwDEeagE6UVPL9Hxw" field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_XrFPytwDEeagE6UVPL9Hxw" field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFPy9wDEeagE6UVPL9Hxw" field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFPzNwDEeagE6UVPL9Hxw" field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFPzdwDEeagE6UVPL9Hxw" field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter xmi:id="_XrFPztwDEeagE6UVPL9Hxw" field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter xmi:id="_XrFPz9wDEeagE6UVPL9Hxw" field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter xmi:id="_XrFP0NwDEeagE6UVPL9Hxw" field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter xmi:id="_XrFP0dwDEeagE6UVPL9Hxw" field="CHECK" name="DISABLE_WARNINGS" value="true" show="false"/>
+    <elementParameter xmi:id="_XrFP0twDEeagE6UVPL9Hxw" field="CHECK" name="DISABLE_INFO" value="true" show="false"/>
+    <elementParameter xmi:id="_XrFP09wDEeagE6UVPL9Hxw" field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_XrFP1NwDEeagE6UVPL9Hxw" field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_XrFP1dwDEeagE6UVPL9Hxw" field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_XrFP1twDEeagE6UVPL9Hxw" field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_XrFP19wDEeagE6UVPL9Hxw" field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_XrFP2NwDEeagE6UVPL9Hxw" field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/lenovo/workspace/.metadata&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP2dwDEeagE6UVPL9Hxw" field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP2twDEeagE6UVPL9Hxw" field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP29wDEeagE6UVPL9Hxw" field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP3NwDEeagE6UVPL9Hxw" field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter xmi:id="_XrFP3dwDEeagE6UVPL9Hxw" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter xmi:id="_XrFP3twDEeagE6UVPL9Hxw" field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_XrFP39wDEeagE6UVPL9Hxw" field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter xmi:id="_XrFP4NwDEeagE6UVPL9Hxw" field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter xmi:id="_XrFP4dwDEeagE6UVPL9Hxw" field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP4twDEeagE6UVPL9Hxw" field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter xmi:id="_XrFP49wDEeagE6UVPL9Hxw" field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP5NwDEeagE6UVPL9Hxw" field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP5dwDEeagE6UVPL9Hxw" field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP5twDEeagE6UVPL9Hxw" field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP59wDEeagE6UVPL9Hxw" field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP6NwDEeagE6UVPL9Hxw" field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP6dwDEeagE6UVPL9Hxw" field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP6twDEeagE6UVPL9Hxw" field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP69wDEeagE6UVPL9Hxw" field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP7NwDEeagE6UVPL9Hxw" field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_XrFP7dwDEeagE6UVPL9Hxw" field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP7twDEeagE6UVPL9Hxw" field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP79wDEeagE6UVPL9Hxw" field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP8NwDEeagE6UVPL9Hxw" field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFP8dwDEeagE6UVPL9Hxw" field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter xmi:id="_XrFP8twDEeagE6UVPL9Hxw" field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter xmi:id="_XrFP89wDEeagE6UVPL9Hxw" field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter xmi:id="_XrFP9NwDEeagE6UVPL9Hxw" field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter xmi:id="_XrFP9dwDEeagE6UVPL9Hxw" field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter xmi:id="_XrFP9twDEeagE6UVPL9Hxw" field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter xmi:id="_XrFP99wDEeagE6UVPL9Hxw" field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_XrFP-NwDEeagE6UVPL9Hxw" field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter xmi:id="_XrFP-dwDEeagE6UVPL9Hxw" field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter xmi:id="_XrFP-twDEeagE6UVPL9Hxw" field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter xmi:id="_XrFP-9wDEeagE6UVPL9Hxw" field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter xmi:id="_XrFP_NwDEeagE6UVPL9Hxw" field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_XrFP_dwDEeagE6UVPL9Hxw" field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter xmi:id="_XrFP_twDEeagE6UVPL9Hxw" field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter xmi:id="_XrFP_9wDEeagE6UVPL9Hxw" id="_PqtF4P7kEeeJGq8G3HQeGg" name="DataOperation"/>
+    <routinesParameter xmi:id="_XrFQANwDEeagE6UVPL9Hxw" id="_PrAn4P7kEeeJGq8G3HQeGg" name="Mathematical"/>
+    <routinesParameter xmi:id="_XrFQAdwDEeagE6UVPL9Hxw" id="_PrizYP7kEeeJGq8G3HQeGg" name="Numeric"/>
+    <routinesParameter xmi:id="_XrFQAtwDEeagE6UVPL9Hxw" id="_Prw10P7kEeeJGq8G3HQeGg" name="Relational"/>
+    <routinesParameter xmi:id="_XrFQA9wDEeagE6UVPL9Hxw" id="_Po8yYP7kEeeJGq8G3HQeGg" name="SQLike"/>
+    <routinesParameter xmi:id="_XrFQBNwDEeagE6UVPL9Hxw" id="_Pr-RMP7kEeeJGq8G3HQeGg" name="StringHandling"/>
+    <routinesParameter xmi:id="_XrFQBdwDEeagE6UVPL9Hxw" id="_PsQlEP7kEeeJGq8G3HQeGg" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_XrFQBtwDEeagE6UVPL9Hxw" id="_PsfOkP7kEeeJGq8G3HQeGg" name="TalendDate"/>
+    <routinesParameter xmi:id="_XrFQB9wDEeagE6UVPL9Hxw" id="_PtDPQP7kEeeJGq8G3HQeGg" name="TalendStringUtil"/>
+    <routinesParameter xmi:id="_XrFQCNwDEeagE6UVPL9Hxw" id="_Psz-sP7kEeeJGq8G3HQeGg" name="TalendString"/>
   </parameters>
+  <node xmi:id="_XrFQCdwDEeagE6UVPL9Hxw" componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="192">
+    <elementParameter xmi:id="_XrFQCtwDEeagE6UVPL9Hxw" field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
+    <elementParameter xmi:id="_XrFQC9wDEeagE6UVPL9Hxw" field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter xmi:id="_XrFQDNwDEeagE6UVPL9Hxw" field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter xmi:id="_XrFQDdwDEeagE6UVPL9Hxw" field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;))"/>
+    <elementParameter xmi:id="_XrFQDtwDEeagE6UVPL9Hxw" field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter xmi:id="_XrFQD9wDEeagE6UVPL9Hxw" field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter xmi:id="_XrFQENwDEeagE6UVPL9Hxw" field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFQEdwDEeagE6UVPL9Hxw" field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter xmi:id="_XrFQEtwDEeagE6UVPL9Hxw" field="CHECK" name="APPEND" value="false"/>
+    <elementParameter xmi:id="_XrFQE9wDEeagE6UVPL9Hxw" field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter xmi:id="_XrFQFNwDEeagE6UVPL9Hxw" field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter xmi:id="_XrFQFdwDEeagE6UVPL9Hxw" field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter xmi:id="_XrFQFtwDEeagE6UVPL9Hxw" field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFQF9wDEeagE6UVPL9Hxw" field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFQGNwDEeagE6UVPL9Hxw" field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter xmi:id="_XrFQGdwDEeagE6UVPL9Hxw" field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFQGtwDEeagE6UVPL9Hxw" field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFQG9wDEeagE6UVPL9Hxw" field="CHECK" name="CREATE" value="true"/>
+    <elementParameter xmi:id="_XrFQHNwDEeagE6UVPL9Hxw" field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter xmi:id="_XrFQHdwDEeagE6UVPL9Hxw" field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter xmi:id="_XrFQHtwDEeagE6UVPL9Hxw" field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter xmi:id="_XrFQH9wDEeagE6UVPL9Hxw" field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter xmi:id="_XrFQINwDEeagE6UVPL9Hxw" field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter xmi:id="_XrFQIdwDEeagE6UVPL9Hxw" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter xmi:id="_XrFQItwDEeagE6UVPL9Hxw" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_XrFQI9wDEeagE6UVPL9Hxw" field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter xmi:id="_XrFQJNwDEeagE6UVPL9Hxw" field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
+    <elementParameter xmi:id="_XrFQJdwDEeagE6UVPL9Hxw" field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter xmi:id="_XrFQJtwDEeagE6UVPL9Hxw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_XrFQJ9wDEeagE6UVPL9Hxw" connector="FLOW" name="tFileOutputDelimited_1">
+      <column xmi:id="_XrFQKNwDEeagE6UVPL9Hxw" comment="" key="false" length="10" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="10" usefulColumn="true"/>
+      <column xmi:id="_XrFQKdwDEeagE6UVPL9Hxw" comment="" key="false" length="20" name="name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node xmi:id="_XrFQKtwDEeagE6UVPL9Hxw" componentName="tCreateTemporaryFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="64">
+    <elementParameter xmi:id="_XrFQK9wDEeagE6UVPL9Hxw" field="TEXT" name="UNIQUE_NAME" value="tCreateTemporaryFile_1" show="false"/>
+    <elementParameter xmi:id="_XrFQLNwDEeagE6UVPL9Hxw" field="CHECK" name="REMOVE" value="true"/>
+    <elementParameter xmi:id="_XrFQLdwDEeagE6UVPL9Hxw" field="CHECK" name="USE_DEFAULT_DIR" value="true"/>
+    <elementParameter xmi:id="_XrFQLtwDEeagE6UVPL9Hxw" field="DIRECTORY" name="DIRECTORY" value="&quot;C:/Users/lenovo/workspace&quot;" show="false"/>
+    <elementParameter xmi:id="_XrFQL9wDEeagE6UVPL9Hxw" field="LABEL" name="INFO_RANGE" value="the temporary file name should include template &quot;XXXX&quot;."/>
+    <elementParameter xmi:id="_XrFQMNwDEeagE6UVPL9Hxw" field="TEXT" name="TEMPLATE" value="&quot;talend_XXXX&quot;"/>
+    <elementParameter xmi:id="_XrFQMdwDEeagE6UVPL9Hxw" field="TEXT" name="SUFFIX" value="&quot;tmp&quot;"/>
+    <elementParameter xmi:id="_XrFQMtwDEeagE6UVPL9Hxw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_XrFQM9wDEeagE6UVPL9Hxw" componentName="tFileCompare" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="384">
+    <elementParameter xmi:id="_XrFQNNwDEeagE6UVPL9Hxw" field="TEXT" name="UNIQUE_NAME" value="tFileCompare_1" show="false"/>
+    <elementParameter xmi:id="_XrFQNdwDEeagE6UVPL9Hxw" field="CLOSED_LIST" name="COMPARISON_MODE" value="TEXT_CMP"/>
+    <elementParameter xmi:id="_XrFQNtwDEeagE6UVPL9Hxw" field="FILE" name="FILE" value="((String)globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;))"/>
+    <elementParameter xmi:id="_XrFQN9wDEeagE6UVPL9Hxw" field="FILE" name="FILE_REF" value="context.reference_file1"/>
+    <elementParameter xmi:id="_XrFQONwDEeagE6UVPL9Hxw" field="TEXT" name="DIFFER_MESSAGE" value="&quot;[job &quot; + jobName + &quot;] Files differ&quot;"/>
+    <elementParameter xmi:id="_XrFQOdwDEeagE6UVPL9Hxw" field="TEXT" name="NO_DIFFER_MESSAGE" value="&quot;[job &quot; + jobName + &quot;] Files are identical&quot;"/>
+    <elementParameter xmi:id="_XrFQOtwDEeagE6UVPL9Hxw" field="CHECK" name="PRINT" value="true"/>
+    <elementParameter xmi:id="_XrFQO9wDEeagE6UVPL9Hxw" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter xmi:id="_XrFQPNwDEeagE6UVPL9Hxw" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_XrFQPdwDEeagE6UVPL9Hxw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_XrFQPtwDEeagE6UVPL9Hxw" connector="FLOW" name="tFileCompare_1">
+      <column xmi:id="_XrFQP9wDEeagE6UVPL9Hxw" defaultValue="" key="false" length="255" name="file" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_XrFQQNwDEeagE6UVPL9Hxw" defaultValue="" key="false" length="255" name="file_ref" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_XrFQQdwDEeagE6UVPL9Hxw" defaultValue="" key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_XrFQQtwDEeagE6UVPL9Hxw" defaultValue="" key="false" length="50" name="job" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_XrFQQ9wDEeagE6UVPL9Hxw" defaultValue="" key="false" length="255" name="component" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_XrFQRNwDEeagE6UVPL9Hxw" defaultValue="" key="false" length="1" name="differ" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_XrFQRdwDEeagE6UVPL9Hxw" defaultValue="" key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node xmi:id="_XrFQRtwDEeagE6UVPL9Hxw" componentName="tAssert" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="384">
+    <elementParameter xmi:id="_XrFQR9wDEeagE6UVPL9Hxw" field="TEXT" name="UNIQUE_NAME" value="tAssert_1" show="false"/>
+    <elementParameter xmi:id="_XrFQSNwDEeagE6UVPL9Hxw" field="TEXT" name="DESCRIPTION" value="&quot;File from reference differs from input&quot;"/>
+    <elementParameter xmi:id="_XrFQSdwDEeagE6UVPL9Hxw" field="MEMO_JAVA" name="EXPRESSION" value="((Boolean)globalMap.get(&quot;tFileCompare_1_DIFFERENCE&quot;))"/>
+    <elementParameter xmi:id="_XrFQStwDEeagE6UVPL9Hxw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_XrFQS9wDEeagE6UVPL9Hxw" connector="FLOW" name="tAssert_1"/>
+  </node>
+  <connection xmi:id="_XrFQTNwDEeagE6UVPL9Hxw" connectorName="FLOW" label="row2" lineStyle="0" metaname="OUTPUT_1" offsetLabelX="0" offsetLabelY="0" source="OUTPUT_1" target="tFileOutputDelimited_1">
+    <elementParameter xmi:id="_XrFQTdwDEeagE6UVPL9Hxw" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_XrFQTtwDEeagE6UVPL9Hxw" field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection xmi:id="_XrFQT9wDEeagE6UVPL9Hxw" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tCreateTemporaryFile_1" offsetLabelX="0" offsetLabelY="0" source="tCreateTemporaryFile_1" target="tFileInputDelimited_1">
+    <elementParameter xmi:id="_XrFQUNwDEeagE6UVPL9Hxw" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection xmi:id="_XrFQUdwDEeagE6UVPL9Hxw" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileCompare_1" offsetLabelX="0" offsetLabelY="0" source="tFileCompare_1" target="tAssert_1">
+    <elementParameter xmi:id="_XrFQUtwDEeagE6UVPL9Hxw" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+  </connection>
+  <connection xmi:id="_XrFQU9wDEeagE6UVPL9Hxw" connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="OUTPUT_1">
+    <elementParameter xmi:id="_XrFQVNwDEeagE6UVPL9Hxw" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_XrFQVdwDEeagE6UVPL9Hxw" field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection xmi:id="_XrFQVtwDEeagE6UVPL9Hxw" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tFileCompare_1">
+    <elementParameter xmi:id="_XrFQV9wDEeagE6UVPL9Hxw" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <note xmi:id="_XrFQWNwDEeagE6UVPL9Hxw" opaque="true" posX="480" posY="0" sizeHeight="64" sizeWidth="360" text="This Test Case has been created automatically&#xD;&#xA;please setup all the datasets"/>
+  <subjob xmi:id="_XrFQWdwDEeagE6UVPL9Hxw">
+    <elementParameter xmi:id="_XrFQWtwDEeagE6UVPL9Hxw" field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter xmi:id="_XrFQW9wDEeagE6UVPL9Hxw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_XrFQXNwDEeagE6UVPL9Hxw" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_XrFQXdwDEeagE6UVPL9Hxw">
+    <elementParameter xmi:id="_XrFQXtwDEeagE6UVPL9Hxw" field="TEXT" name="UNIQUE_NAME" value="tCreateTemporaryFile_1" show="false"/>
+    <elementParameter xmi:id="_XrFQX9wDEeagE6UVPL9Hxw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_XrFQYNwDEeagE6UVPL9Hxw" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_XrFQYdwDEeagE6UVPL9Hxw">
+    <elementParameter xmi:id="_XrFQYtwDEeagE6UVPL9Hxw" field="TEXT" name="UNIQUE_NAME" value="tFileCompare_1" show="false"/>
+    <elementParameter xmi:id="_XrFQY9wDEeagE6UVPL9Hxw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_XrFQZNwDEeagE6UVPL9Hxw" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_XrFQZdwDEeagE6UVPL9Hxw">
+    <elementParameter xmi:id="_XrFQZtwDEeagE6UVPL9Hxw" field="TEXT" name="UNIQUE_NAME" value="tAssert_1" show="false"/>
+    <elementParameter xmi:id="_XrFQZ9wDEeagE6UVPL9Hxw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_XrFQaNwDEeagE6UVPL9Hxw" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <testContainerNodes xmi:id="_XrFQatwDEeagE6UVPL9Hxw" componentName="OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="608" posY="192">
+    <elementParameter xmi:id="_XrFQa9wDEeagE6UVPL9Hxw" field="TEXT" name="UNIQUE_NAME" value="OUTPUT_1"/>
+    <elementParameter xmi:id="_XrFQbNwDEeagE6UVPL9Hxw" field="CHECK" name="STARTABLE" value="false" show="false"/>
+    <elementParameter xmi:id="_XrFQbdwDEeagE6UVPL9Hxw" field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter xmi:id="_XrFQbtwDEeagE6UVPL9Hxw" field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter xmi:id="_XrFQb9wDEeagE6UVPL9Hxw" field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter xmi:id="_XrFQcNwDEeagE6UVPL9Hxw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_XrFQcdwDEeagE6UVPL9Hxw" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_XrFQctwDEeagE6UVPL9Hxw" field="MEMO" name="COMMENT" value=""/>
+    <metadata xmi:id="_XrFQc9wDEeagE6UVPL9Hxw" connector="FLOW" name="OUTPUT_1">
+      <column xmi:id="_XrFQdNwDEeagE6UVPL9Hxw" comment="" key="false" length="10" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="10" usefulColumn="true"/>
+      <column xmi:id="_XrFQddwDEeagE6UVPL9Hxw" comment="" key="false" length="20" name="name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
+    </metadata>
+  </testContainerNodes>
+  <OriginalNodes xmi:id="_XrFQdtwDEeagE6UVPL9Hxw" uniqueName="tFileInputDelimited_1" posX="352" posY="192" start="true"/>
+  <testInstanceList xmi:id="_00N-gNwCEeagE6UVPL9Hxw" name="Default" contextInstance="Default" displayName="Default" forbidDelete="true" testContainerID="_zlYz4NwCEeagE6UVPL9Hxw">
+    <testDatas xmi:id="_00PMoNwCEeagE6UVPL9Hxw" paramemterName="reference_file1" value="sample_job_Default_reference_file1_reference.txt" name="reference_file1"/>
+  </testInstanceList>
 </testcontainer:TestContainer>
